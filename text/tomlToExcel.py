@@ -14,7 +14,7 @@ condition = "zzSD"
 # if os.path.exists(filename) == False:
 #     print("文件不存在")
 
-filename = "G:\huangwen\code\excel\新建文件夹\poke.toml"
+filename = "G:\\huangwen\\code\\excel\\新建文件夹\\poke.toml"
 
 # 先读取toml表格里的数据, 转换成一个字典
 # 加上读取的格式可以有效避免乱码
