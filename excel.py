@@ -38,7 +38,6 @@ class Excel():
 
     # 读取全部文件数据到内存中，建立一个列表保存
     # 并对数据进行总的合并
-
     def read_data(self, data):
         # 检查文件列表
         if len(data.name_list) <= 0:
@@ -203,6 +202,8 @@ class Excel():
         # 保存excel表
         path = path + "/" + file_name
         excel.save(path)
+
+    # 进行别的处理
 
 
 # 实例化单例

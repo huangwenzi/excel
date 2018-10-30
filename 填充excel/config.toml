@@ -1,0 +1,11 @@
+[config]
+dir_path = "./el/1.xlsx"
+putout = "./el1/1.xlsx"
+begin_row = 4
+consult_key = "名字"
+fill_key = ["语文", "数学"]
+Retain_key = ["名字"]
+add_key = ["学期"]
+
+
+    
